@@ -1,0 +1,17 @@
+/*Parent Element Inheritance*/
+body {
+	color: red;
+}
+
+/*Child Element Inheritance*/
+header {
+	color: green;
+}
+main {
+	color: black;
+}
+
+/*Grandchild Element to the Parent Element*/
+main p {
+	color: blue;
+}

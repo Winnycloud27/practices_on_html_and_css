@@ -1,0 +1,16 @@
+/* Element Selector */
+p {
+	color: rebeccapurple;
+	font-size: 20px;
+	margin-left: 20px;
+}
+/* ID Selector */
+#footer-p {
+	color: aqua;
+	font-size: small;
+}
+/* Class Selector */
+.title {
+	color: yellow;
+	text-align: center;
+}

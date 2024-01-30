@@ -1,0 +1,44 @@
+/* TARGETING ELEMENTS/TAGS */
+
+a {
+	text-decoration: underline;
+	color: blue;
+}
+h1 {
+	font-size: 32px;
+	color: white;
+}
+
+p {
+	font-size: 15px;
+}
+span {
+	text-transform: capitalize;
+}
+div {
+	padding: 5px;
+	background-color: green;
+	border-radius: 10px;
+}
+h2 {
+	font-size: 20px;
+	color: black;
+}
+span {
+	display: block;
+	color: white;
+}
+
+/* TARGETING CLASS/ID */
+
+#content-header {
+	font-size: 20px;
+	color: red;
+}
+#header {
+	text-align: center;
+}
+
+.deck {
+	color: black;
+}
