@@ -1,0 +1,13 @@
+#main-content > p {
+                color: blue;
+}
+
+#main-content > div {
+    background-color: red;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+}
