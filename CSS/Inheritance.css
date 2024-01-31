@@ -3,9 +3,10 @@ body {
 	color: red;
 }
 
-/*Child Element Inheritance*/
+/*Child Element Inheritance to the Parent Element*/
 header {
-	color: green;
+	text-align: center;
+	color: white;
 }
 main {
 	color: black;
@@ -13,5 +14,17 @@ main {
 
 /*Grandchild Element to the Parent Element*/
 main p {
-	color: blue;
+	color: red;
+}
+
+footer p {
+			color: blue;
+}
+
+div {
+		border-radius: 5px;
+		background-color: green !important;
+}
+#div {
+		background-color: black;
 }
