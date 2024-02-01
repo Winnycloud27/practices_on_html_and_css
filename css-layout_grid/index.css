@@ -1,0 +1,22 @@
+.item1 {
+    grid-area: myArea
+}
+.grid-layout {
+	display: grid;
+	grid:
+		"myArea mrea . . ."
+		"myArea myArea . . .";
+	grid-gap: 10px;
+	background-color: #2196f3;
+	padding: 10px;
+}
+.grid-layout > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+p {
+	color: blue;
+}
