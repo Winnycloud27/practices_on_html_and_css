@@ -1,20 +1,29 @@
 .item1 {
-    grid-area: myArea
+	grid-area: myArea;
 }
 .grid-layout {
 	display: grid;
 	grid:
-		"myArea mrea . . ."
+		"myArea myArea . . ."
 		"myArea myArea . . .";
 	grid-gap: 10px;
 	background-color: #2196f3;
 	padding: 10px;
+	/* uses the fr to space the columns evenly and the repeat 
+		function is used for cleaner and clearer code when 6 is
+		the number of columns
+	*/
+	grid-template-columns: repeat(6, 1fr);
+	grid-template-rows: repeat(6, 1fr);
+	column-gap: 20px;
+	row-gap: 20px;
 }
 .grid-layout > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
+	background-color: rgba(255, 255, 255, 0.8);
+	text-align: center;
+	padding: 20px 0;
+	font-size: 30px;
+	height: 100px;
 }
 
 p {

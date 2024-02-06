@@ -3,6 +3,18 @@ p {
 	color: rebeccapurple;
 	font-size: 20px;
 	margin-left: 20px;
+	animation-duration: 5s;
+	animation-name: slidein;
+}
+@keyframes slidein {
+	from {
+		margin-down: 100%;
+		width: 500%;
+	}
+	to {
+		margin-down: 100%;
+		width: 100%;
+	}
 }
 /* ID Selector */
 #footer-p {
